@@ -31,7 +31,7 @@ SOFTWARE.
 #include "c_gpio.h"
 
 #define BCM2708_PERI_BASE   0x20000000
-#define GPIO_BASE           (BCM2708_PERI_BASE + 0x200000)
+#define GPIO_BASE           (BCM2709_PERI_BASE + 0x200000)
 #define FSEL_OFFSET         0   // 0x0000
 #define SET_OFFSET          7   // 0x001c / 4
 #define CLR_OFFSET          10  // 0x0028 / 4
